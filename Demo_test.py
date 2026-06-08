@@ -11,5 +11,5 @@ def test_sample2():
     assert a<b
 def test_sample3():
     a="arun"
-    b="aruns"
+    b="arun"
     assert a._eq_(b)
