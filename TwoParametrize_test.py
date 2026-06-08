@@ -10,7 +10,7 @@ def test_url(input_browser, input_url):
         Chrome_options.add_argument("--headless=new")
         driver = webdriver.Chrome(options=Chrome_options)
         driver = webdriver.Chrome()
-    if input_browser == 'firefox':
+    elif input_browser == 'firefox':
         Chrome_options = webdriver.ChromeOptions()
         Chrome_options.add_argument("--headless=new")
         driver = webdriver.Chrome(options=Chrome_options)
