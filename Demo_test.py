@@ -12,4 +12,4 @@ def test_sample2():
 def test_sample3():
     a="arun"
     b="arun"
-    assert a._eq_(b)
+    assert a.__eq__(b)
