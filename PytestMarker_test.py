@@ -16,5 +16,5 @@ def test_sample2():
 @pytest.mark.nameequal
 def test_sample3():
     a="arun"
-    b="aruns"
+    b="arun"
     assert a.__eq__(b)
