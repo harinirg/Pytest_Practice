@@ -1,5 +1,4 @@
 import openpyxl
-
 def get_data(path, sheet_name):
     final_list = []
     workbook = openpyxl.load_workbook(path)
